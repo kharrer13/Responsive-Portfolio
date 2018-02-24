@@ -1,0 +1,126 @@
+body {
+    background-image: url("../images/concrete-texture.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 2em;
+}
+
+.container-flex {
+    display: flex;
+    /*padding: 1em;*/
+}
+
+#header .container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body .container-flex {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.container-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    padding: 1em;
+}
+
+.item-about {
+    flex: 2;
+}
+
+.border-middle {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.border-under {
+    border-bottom: 2px solid #cccccc;
+}
+
+.icon {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.portfolio-pic {
+    max-width: 200px;
+    max-height: 200px;
+    padding: 1em;
+    align-content: left;
+}
+
+#profile-pic {
+    max-width: 150px;
+    max-height: 150px;
+    float: left;
+    padding: 1em, 1em, 1em, 0em;
+}
+
+.content-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+#header {
+    background-color: #ffffff;
+    border: solid 2px #cccccc;
+}
+
+#sub-header {
+    padding: 0em;
+}
+
+#name-header {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: x-large;
+    background-color: #4aaaa5;
+    padding: 1em;
+}
+
+#about-me {
+    border: solid 1px #cccccc;
+    max-width: 60%;
+    background-color: #ffffff;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#connect-with-me {
+    border: solid 1px #cccccc;
+    background-color: #ffffff;
+    padding: 1em;
+    margin-top: 1em;
+    max-height: 7em;
+}
+
+#footer {
+    text-align: center;
+    color: #cccccc;
+    font-size: .5em;
+    background-color: #666666;
+    padding: 1em;
+    border-top: solid 2px #4aaaa5;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#message {
+    max-width: 90%;
+}
+
+@media
