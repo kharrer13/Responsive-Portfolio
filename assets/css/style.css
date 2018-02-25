@@ -1,3 +1,7 @@
+* {
+    /* box-sizing: border-box; */
+}
+
 body {
     background-image: url("../images/concrete-texture.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -123,4 +127,25 @@ h2 {
     max-width: 90%;
 }
 
-@media
+@media screen and (max-width: 768px) {
+
+    #wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #header {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-me {
+        width: 100%;
+    }
+
+    #body {
+        display: flex;
+    }
+  }
